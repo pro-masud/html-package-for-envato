@@ -125,19 +125,19 @@
 /*----------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 :root {
-  --tp-theme-color: red;
-  --tp-theme-sec-color: blue;
-  --tp-black: black;
-  --tp-white: white;
-  --tp-grey-color: #f6f6f6;
-  --tp-grey-color-2: #f6f6f6;
-  --tp-grey-color-3: #f6f6f6;
-  --tp-grey-color-4: #f6f6f6;
+  --exdos-theme-color: red;
+  --exdos-theme-sec-color: blue;
+  --exdos-black: black;
+  --exdos-white: white;
+  --exdos-grey-color: #f6f6f6;
+  --exdos-grey-color-2: #f6f6f6;
+  --exdos-grey-color-3: #f6f6f6;
+  --exdos-grey-color-4: #f6f6f6;
 }
 
 :root {
-  --tp-fonts-poppins: "Poppins", sans-serif;
-  --tp-fonts-muli: "Muli", sans-serif;
+  --exdos-fonts-poppins: "Poppins", sans-serif;
+  --exdos-fonts-muli: "Muli", sans-serif;
 }
 
 * {
@@ -150,10 +150,10 @@
 	typography css start 
 ---------------------------------*/
 body {
-  font-family: var(--tp-fonts-poppins);
+  font-family: var(--exdos-fonts-poppins);
   font-size: 14px;
   font-weight: normal;
-  color: var(--tp-black);
+  color: var(--exdos-black);
   line-height: 26px;
 }
 
@@ -167,8 +167,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--tp-fonts-muli);
-  color: var(--tp-theme-sec-color);
+  font-family: var(--exdos-fonts-muli);
+  color: var(--exdos-theme-sec-color);
   margin-top: 0px;
   font-weight: 700;
   line-height: 1.2;
@@ -204,10 +204,10 @@ ul {
 }
 
 p {
-  font-family: var(--tp-ff-p);
+  font-family: var(--exdos-ff-p);
   font-size: 14px;
   font-weight: 400;
-  color: var(--tp-text-body);
+  color: var(--exdos-text-body);
   margin-bottom: 15px;
   line-height: 26px;
 }
@@ -267,7 +267,7 @@ textarea {
   width: 100%;
   line-height: 56px;
   font-size: 14px;
-  color: var(--tp-common-black);
+  color: var(--exdos-common-black);
   padding-left: 26px;
   padding-right: 26px;
   border: 1px solid #E0E2E3;
@@ -279,7 +279,7 @@ input[type=number]:focus,
 input[type=password]:focus,
 input[type=url]:focus,
 textarea:focus {
-  border-color: var(--tp-common-black);
+  border-color: var(--exdos-common-black);
 }
 input[type=text]:focus::placeholder,
 input[type=email]:focus::placeholder,
@@ -298,25 +298,25 @@ textarea {
 }
 
 *::-moz-selection {
-  background: var(--tp-common-black);
-  color: var(--tp-common-white);
+  background: var(--exdos-common-black);
+  color: var(--exdos-common-white);
   text-shadow: none;
 }
 
 *::selection {
-  background: var(--tp-common-black);
-  color: var(--tp-common-white);
+  background: var(--exdos-common-black);
+  color: var(--exdos-common-white);
   text-shadow: none;
 }
 
 *::-moz-placeholder {
-  color: var(--tp-common-black);
+  color: var(--exdos-common-black);
   font-size: 14px;
   opacity: 1;
 }
 
 *::placeholder {
-  color: var(--tp-common-black);
+  color: var(--exdos-common-black);
   font-size: 14px;
   opacity: 1;
 }

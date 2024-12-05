@@ -140,10 +140,10 @@
 	typography css start 
 ---------------------------------*/
 body {
-	font-family: var(--tp-fonts-poppins);
+	font-family: var(--exdos-fonts-poppins);
 	font-size: 14px;
 	font-weight: normal;
-	color: var(--tp-black);
+	color: var(--exdos-black);
 	line-height: 26px;
 }
 
@@ -157,12 +157,12 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: var(--tp-fonts-muli);
-	color: var(--tp-theme-sec-color);
+	font-family: var(--exdos-fonts-muli);
+	color: var(--exdos-theme-sec-color);
 	margin-top: 0px;
 	font-weight: 700;
 	line-height: 1.2;
-	// @include tp-transition(color);
+	// @include exdos-transition(color);
 }
 
 h1 {
@@ -195,10 +195,10 @@ ul {
 }
 
 p {
-	font-family: var(--tp-ff-p);
+	font-family: var(--exdos-ff-p);
 	font-size: 14px;
 	font-weight: 400;
-	color: var(--tp-text-body);
+	color: var(--exdos-text-body);
 	margin-bottom: 15px;
 	line-height: 26px;
 }
@@ -212,7 +212,7 @@ select,
 textarea,
 li,
 .transition-3{
-	// @extend %tp-transition-common;
+	// @extend %exdos-transition-common;
 }
 
 a:not([href]):not([class]), 
@@ -271,17 +271,17 @@ textarea{
 	width: 100%;
 	line-height: 56px;
 	font-size: 14px;
-	color: var(--tp-common-black);
+	color: var(--exdos-common-black);
 	padding-left: 26px;
 	padding-right: 26px;
 	border: 1px solid #E0E2E3;
 
-	// @include tp-placeholder{
+	// @include exdos-placeholder{
 	// 	color: #95999D;
 	// }
 
 	&:focus{
-		border-color: var(--tp-common-black);
+		border-color: var(--exdos-common-black);
 		&::placeholder{
 			opacity: 0;
 		}
@@ -296,23 +296,23 @@ textarea{
 }
 
 *::-moz-selection {
-	background: var(--tp-common-black);
-	color: var(--tp-common-white);
+	background: var(--exdos-common-black);
+	color: var(--exdos-common-white);
 	text-shadow: none;
 }
 *::selection {
-	background: var(--tp-common-black);
-	color: var(--tp-common-white);
+	background: var(--exdos-common-black);
+	color: var(--exdos-common-white);
 	text-shadow: none;
 }
 
 *::-moz-placeholder {
-	color: var(--tp-common-black);
+	color: var(--exdos-common-black);
 	font-size: 14px;
 	opacity: 1;
 }
 *::placeholder {
-	color: var(--tp-common-black);
+	color: var(--exdos-common-black);
 	font-size: 14px;
 	opacity: 1;
 }
